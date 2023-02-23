@@ -1,0 +1,20 @@
+{
+  "name": "bernese",
+  "version": "1.0.0",
+  "description": "second brain",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "tsconfig": "^7.0.0",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.9.5",
+    "typescript-transform-paths": "^3.4.6"
+  }
+}
