@@ -1,9 +1,9 @@
 import Debug from "debug";
-import { Response } from "@bernese/interface";
-import { name } from "@/db";
+import { Response } from "@bernese/shared/src/types";
+import { initialize as initializeDB } from "@/data";
 
 const debug = Debug("b:server:index");
-debug(name);
 const resp: Response<string> = { code: 0, data: "" };
+// initializeDB();
 
 debug("resp:", resp);

@@ -2,9 +2,16 @@
   "extends": "../../tsconfig",
   "compilerOptions": {
     "baseUrl": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "paths": {
       "@/*": ["*"]
     }
   },
-  "include": ["src/*"]
+  "include": [
+    "src",
+    "src/global.d.ts",
+    "../shared/src/debounce-map.ts",
+    "../shared/src/debounce-map.ts"
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "name": "@bernese/graph",
+  "version": "1.0.0",
+  "description": "auto sync graph data with typeorm",
+  "main": "src/index.js",
+  "author": "tensor tian",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "mysql2": "^3.1.2",
+    "typeorm": "^0.3.12"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "ts-node": "^10.9.1"
+  }
+}
